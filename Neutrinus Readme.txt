@@ -1,4 +1,0 @@
-* Se debe incluir en el archivo .env los datos de una cuenta de correo de gmail en MAIL_USERNAME y MAIL_PASSWORD. Es recomendable que la cuenta sea creada especificamente para este uso.
-* Se debe habilitar la cuenta de gmail creada para que permita a Neutrinus utilizarla como servidor de mails. Para esto se debe entrar en administración de la cuenta -> https://myaccount.google.com/lesssecureapps -> permitir el acceso de aps menos seguras (pasar a SI)
-* Luego en la cuenta se debe habilitar la verificacion en dos pasos https://myaccount.google.com/signinoptions/two-step-verification/enroll-welcome
-* se debe entrar en la pestaña de seguridad de la cuenta de google y contraseñas de las aplicaciones. ahi se genera una contraseña para Neutrinus. Esa contraseña se debe utilizar en la contraseña del archivo ENV MAIL_PASSWORD
